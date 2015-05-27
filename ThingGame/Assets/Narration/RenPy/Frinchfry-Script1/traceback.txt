@@ -1,0 +1,43 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 40, in script
+    ff "Let’s go get him! Well, technically you’re gonna get him.
+IOError: Couldn't find file 'ff-line4.wav'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 40, in script
+    ff "Let’s go get him! Well, technically you’re gonna get him.
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\ast.py", line 593, in execute
+    renpy.exports.say(who, what, interact=self.interact)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\exports.py", line 999, in say
+    who(what, interact=interact)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\character.py", line 826, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\character.py", line 688, in do_display
+    **display_args)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\character.py", line 491, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\ui.py", line 247, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\display\core.py", line 2149, in interact
+    repeat, rv = self.interact_core(preloads=preloads, **kwargs)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\display\core.py", line 2428, in interact_core
+    renpy.audio.audio.interact()
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\audio\audio.py", line 946, in interact
+    periodic()
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\audio\audio.py", line 880, in periodic
+    c.periodic()
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\audio\audio.py", line 349, in periodic
+    topf = load(self.file_prefix + topq.filename + self.file_suffix)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\audio\audio.py", line 83, in load
+    rv = renpy.loader.load(fn)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\loader.py", line 438, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'ff-line4.wav'.
+
+Windows-post2008Server-6.2.9200
+Ren'Py 6.18.3.761
+Frinchfry-Script1 0.0

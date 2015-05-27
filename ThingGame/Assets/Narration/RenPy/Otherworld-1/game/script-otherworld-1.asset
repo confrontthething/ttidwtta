@@ -1,0 +1,2432 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c355de95e90b84c41b81f9fc8b3580a5, type: 3}
+  m_Name: script-otherworld-1
+  m_EditorClassIdentifier: 
+  Title: Otherworld-1
+  Blocks:
+  - {fileID: 11408688}
+  - {fileID: 11408692}
+  audioKeys:
+  - Thing_All_.mp3
+  - Thing_Find_.mp3
+  - Thing_Must_.mp3
+  - silence-track.wav
+  audioValues:
+  - {fileID: 8300000, guid: 2be4d891d2eec41499a8fd40db7448de, type: 3}
+  - {fileID: 8300000, guid: 695c32dc2cd4e4437b104ae032c92d91, type: 3}
+  - {fileID: 8300000, guid: 59cf9927ce8ea495d961bc279b84aed5, type: 3}
+  - {fileID: 8300000, guid: acfc88d1801fe44b694cf912de0c9f71, type: 3}
+  imageKeys: []
+  imageValues: []
+--- !u!114 &11400536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11400538
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11400536}
+--- !u!114 &11400540
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11400538}
+  m_name: end
+--- !u!114 &11400542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Find me and end this.
+--- !u!114 &11400544
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Find_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11400546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: '...must get heavy on your shoulders.'
+--- !u!114 &11400548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Must_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11400550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: All this running away...
+--- !u!114 &11400552
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_All_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11400554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11400552}
+  - {fileID: 11400550}
+  - {fileID: 11400548}
+  - {fileID: 11400546}
+  - {fileID: 11400544}
+  - {fileID: 11400542}
+--- !u!114 &11400556
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11400554}
+  m_name: start
+--- !u!114 &11400558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11400556}
+  - {fileID: 11400540}
+--- !u!114 &11400560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11400562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11400560}
+--- !u!114 &11403086
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11403088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11403086}
+--- !u!114 &11403090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11403088}
+  m_name: end
+--- !u!114 &11403092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Find me and end this.
+--- !u!114 &11403094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Find_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11403096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: '...must get tired on your shoulders.'
+--- !u!114 &11403098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Must_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11403100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: All this running away...
+--- !u!114 &11403102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_All_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11403104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11403102}
+  - {fileID: 11403100}
+  - {fileID: 11403098}
+  - {fileID: 11403096}
+  - {fileID: 11403094}
+  - {fileID: 11403092}
+--- !u!114 &11403106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11403104}
+  m_name: start
+--- !u!114 &11403108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11403106}
+  - {fileID: 11403090}
+--- !u!114 &11403110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11403112
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11403110}
+--- !u!114 &11408688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11408690}
+--- !u!114 &11408690
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11408692
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11408694}
+  - {fileID: 11408710}
+--- !u!114 &11408694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11408696}
+  m_name: start
+--- !u!114 &11408696
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11408698}
+  - {fileID: 11408700}
+  - {fileID: 11408702}
+  - {fileID: 11408704}
+  - {fileID: 11408706}
+  - {fileID: 11408708}
+--- !u!114 &11408698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_All_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11408700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: All this running away...
+--- !u!114 &11408702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Must_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11408704
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: '...must get heavy on your shoulders.'
+--- !u!114 &11408706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Find_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11408708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Find me and end this.
+--- !u!114 &11408710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11408712}
+  m_name: end
+--- !u!114 &11408712
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11408714}
+--- !u!114 &11408714
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11413362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11413364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Find me and end this.
+--- !u!114 &11413366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11413368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: '...must get tired on your shoulders.'
+--- !u!114 &11413370
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11413372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: All this running away...
+--- !u!114 &11413374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11413376
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11413374}
+  - {fileID: 11413372}
+  - {fileID: 11413370}
+  - {fileID: 11413368}
+  - {fileID: 11413366}
+  - {fileID: 11413364}
+  - {fileID: 11413362}
+--- !u!114 &11413378
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11413376}
+  m_name: start
+--- !u!114 &11413380
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11413378}
+--- !u!114 &11413382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11413384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11413382}
+--- !u!114 &11414898
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11414900
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11414898}
+--- !u!114 &11414902
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11414900}
+  m_name: end
+--- !u!114 &11414904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Find me and end this.
+--- !u!114 &11414906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Find_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11414908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: '...must get heavy on your shoulders.'
+--- !u!114 &11414910
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Must_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11414912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: All this running away...
+--- !u!114 &11414914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_All_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11414916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11414914}
+  - {fileID: 11414912}
+  - {fileID: 11414910}
+  - {fileID: 11414908}
+  - {fileID: 11414906}
+  - {fileID: 11414904}
+--- !u!114 &11414918
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11414916}
+  m_name: start
+--- !u!114 &11414920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11414918}
+  - {fileID: 11414902}
+--- !u!114 &11414922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11414924
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11414922}
+--- !u!114 &11425342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11425344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11425342}
+--- !u!114 &11425346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11425344}
+  m_name: end
+--- !u!114 &11425348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Find me and end this.
+--- !u!114 &11425350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Find_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11425352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: '...must get tired on your shoulders.'
+--- !u!114 &11425354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Must_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11425356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: All this running away...
+--- !u!114 &11425358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_All_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11425360
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11425358}
+  - {fileID: 11425356}
+  - {fileID: 11425354}
+  - {fileID: 11425352}
+  - {fileID: 11425350}
+  - {fileID: 11425348}
+--- !u!114 &11425362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11425360}
+  m_name: start
+--- !u!114 &11425364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11425362}
+  - {fileID: 11425346}
+--- !u!114 &11425366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11425368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11425366}
+--- !u!114 &11435836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11435838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: I said LOOK AT ME when I'm speaking to you!
+--- !u!114 &11435840
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11435842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11435840}
+--- !u!114 &11435844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks:
+  - {fileID: 11435842}
+  m_time: 4
+--- !u!114 &11435846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Look me in the eyes.
+--- !u!114 &11435848
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11435850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: 8
+--- !u!114 &11435852
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11435850}
+  - {fileID: 11435848}
+  - {fileID: 11435846}
+  - {fileID: 11435844}
+  - {fileID: 11435838}
+  - {fileID: 11435836}
+--- !u!114 &11435854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11435852}
+  m_name: start
+--- !u!114 &11435856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11435854}
+--- !u!114 &11435858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11435860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11435858}
+--- !u!114 &11451998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11452000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11451998}
+--- !u!114 &11452002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11452000}
+  m_name: end
+--- !u!114 &11452004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Find me and end this.
+--- !u!114 &11452006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Find_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11452008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: '...must get tired on your shoulders.'
+--- !u!114 &11452010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Must_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11452012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: All this running away...
+--- !u!114 &11452014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_All_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11452016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11452014}
+  - {fileID: 11452012}
+  - {fileID: 11452010}
+  - {fileID: 11452008}
+  - {fileID: 11452006}
+  - {fileID: 11452004}
+--- !u!114 &11452018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11452016}
+  m_name: start
+--- !u!114 &11452020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11452018}
+  - {fileID: 11452002}
+--- !u!114 &11452022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11452024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11452022}
+--- !u!114 &11453190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11453192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11453190}
+--- !u!114 &11453194
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11453192}
+  m_name: end
+--- !u!114 &11453196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Find me and end this.
+--- !u!114 &11453198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11453200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: '...must get tired on your shoulders.'
+--- !u!114 &11453202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11453204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: All this running away...
+--- !u!114 &11453206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11453208
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11453206}
+  - {fileID: 11453204}
+  - {fileID: 11453202}
+  - {fileID: 11453200}
+  - {fileID: 11453198}
+  - {fileID: 11453196}
+--- !u!114 &11453210
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11453208}
+  m_name: start
+--- !u!114 &11453212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11453210}
+  - {fileID: 11453194}
+--- !u!114 &11453214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11453216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11453214}
+--- !u!114 &11474860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11474862}
+--- !u!114 &11474862
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11474864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11474866}
+  - {fileID: 11474882}
+--- !u!114 &11474866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11474868}
+  m_name: start
+--- !u!114 &11474868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11474870}
+  - {fileID: 11474872}
+  - {fileID: 11474874}
+  - {fileID: 11474876}
+  - {fileID: 11474878}
+  - {fileID: 11474880}
+--- !u!114 &11474870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_All_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11474872
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: All this running away...
+--- !u!114 &11474874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Must_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11474876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: '...must get heavy on your shoulders.'
+--- !u!114 &11474878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Find_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11474880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Find me and end this.
+--- !u!114 &11474882
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11474884}
+  m_name: end
+--- !u!114 &11474884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11474886}
+--- !u!114 &11474886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11498186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11498188
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11498186}
+--- !u!114 &11498190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11498188}
+  m_name: end
+--- !u!114 &11498192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Find me and end this.
+--- !u!114 &11498194
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Find_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11498196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: '...must get tired on your shoulders.'
+--- !u!114 &11498198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_Must_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11498200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: All this running away...
+--- !u!114 &11498202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_All_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11498204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11498202}
+  - {fileID: 11498200}
+  - {fileID: 11498198}
+  - {fileID: 11498196}
+  - {fileID: 11498194}
+  - {fileID: 11498192}
+--- !u!114 &11498206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11498204}
+  m_name: start
+--- !u!114 &11498208
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11498206}
+  - {fileID: 11498190}
+--- !u!114 &11498210
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11498212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11498210}

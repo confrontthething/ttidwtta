@@ -1,0 +1,1850 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c355de95e90b84c41b81f9fc8b3580a5, type: 3}
+  m_Name: script-throneroom-thingend
+  m_EditorClassIdentifier: 
+  Title: ThroneRoom-ThingEnd
+  Blocks:
+  - {fileID: 11463880}
+  - {fileID: 11463876}
+  audioKeys:
+  - Thing_DontYou_.mp3
+  - fivesec-silence-track.wav
+  audioValues:
+  - {fileID: 8300000, guid: 9b5c046809f014a2fbd287edd09a50b2, type: 3}
+  - {fileID: 8300000, guid: 288e4dcd42ef1415392eab9f452cfe02, type: 3}
+  imageKeys: []
+  imageValues: []
+--- !u!114 &11403988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11403990}
+--- !u!114 &11403990
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11403992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11403994}
+  - {fileID: 11404002}
+--- !u!114 &11403994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11403996}
+  m_name: start
+--- !u!114 &11403996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11403998}
+  - {fileID: 11404000}
+--- !u!114 &11403998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11404000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Don't you know by now... What I am?
+--- !u!114 &11404002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11404004}
+  m_name: end
+--- !u!114 &11404004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11404006}
+--- !u!114 &11404006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11405880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11405882}
+--- !u!114 &11405882
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11405884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11405886}
+  - {fileID: 11405894}
+--- !u!114 &11405886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11405888}
+  m_name: start
+--- !u!114 &11405888
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11405890}
+  - {fileID: 11405892}
+--- !u!114 &11405890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11405892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: "Don't you know by now\u2026 What I am?"
+--- !u!114 &11405894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11405896}
+  m_name: end
+--- !u!114 &11405896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11405898}
+--- !u!114 &11405898
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11447440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11447442}
+--- !u!114 &11447442
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11447444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11447446}
+  - {fileID: 11447458}
+--- !u!114 &11447446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11447448}
+  m_name: start
+--- !u!114 &11447448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11447450}
+  - {fileID: 11447452}
+  - {fileID: 11447454}
+  - {fileID: 11447456}
+--- !u!114 &11447450
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_DontYou_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11447452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Don't you know by now... What I am?
+--- !u!114 &11447454
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_DontYou_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11447456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Don't you know by now... What I am?
+--- !u!114 &11447458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11447460}
+  m_name: end
+--- !u!114 &11447460
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11447462}
+--- !u!114 &11447462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11447634
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11447636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11447634}
+--- !u!114 &11447638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11447636}
+  m_name: end
+--- !u!114 &11447640
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Trust yourself. Let go of your fear...
+--- !u!114 &11447642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11447644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11447642}
+  - {fileID: 11447640}
+--- !u!114 &11447646
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11447644}
+  m_name: start
+--- !u!114 &11447648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11447646}
+  - {fileID: 11447638}
+--- !u!114 &11447650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11447652
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11447650}
+--- !u!114 &11449334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11449336}
+--- !u!114 &11449336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11449338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11449340}
+  - {fileID: 11449348}
+--- !u!114 &11449340
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11449342}
+  m_name: start
+--- !u!114 &11449342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11449344}
+  - {fileID: 11449346}
+--- !u!114 &11449344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11449346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Don't you know by now... What I am?
+--- !u!114 &11449348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11449350}
+  m_name: end
+--- !u!114 &11449350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11449352}
+--- !u!114 &11449352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11460730
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11460732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11460730}
+--- !u!114 &11460734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11460732}
+  m_name: end
+--- !u!114 &11460736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Trust yourself. Let go of your fear...
+--- !u!114 &11460738
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11460740
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11460738}
+  - {fileID: 11460736}
+--- !u!114 &11460742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11460740}
+  m_name: start
+--- !u!114 &11460744
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11460742}
+  - {fileID: 11460734}
+--- !u!114 &11460746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11460748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11460746}
+--- !u!114 &11463862
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11463864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11463862}
+--- !u!114 &11463866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11463864}
+  m_name: end
+--- !u!114 &11463868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Don't you know by now... What I am?
+--- !u!114 &11463870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_DontYou_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11463872
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11463870}
+  - {fileID: 11463868}
+--- !u!114 &11463874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11463872}
+  m_name: start
+--- !u!114 &11463876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11463874}
+  - {fileID: 11463866}
+--- !u!114 &11463878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11463880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11463878}
+--- !u!114 &11476878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11476880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11476878}
+--- !u!114 &11476882
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11476880}
+  m_name: end
+--- !u!114 &11476884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Don't you know by now... What I am?
+--- !u!114 &11476886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: Thing_DontYou_.mp3
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11476888
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11476886}
+  - {fileID: 11476884}
+--- !u!114 &11476890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11476888}
+  m_name: start
+--- !u!114 &11476892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11476890}
+  - {fileID: 11476882}
+--- !u!114 &11476894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11476896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11476894}
+--- !u!114 &11477866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11477868}
+--- !u!114 &11477868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11477870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11477872}
+  - {fileID: 11477880}
+--- !u!114 &11477872
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11477874}
+  m_name: start
+--- !u!114 &11477874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11477876}
+  - {fileID: 11477878}
+--- !u!114 &11477876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11477878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Trust yourself. Let go of your fear...
+--- !u!114 &11477880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11477882}
+  m_name: end
+--- !u!114 &11477882
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11477884}
+--- !u!114 &11477884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11480644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11480646}
+--- !u!114 &11480646
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11480648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11480650}
+  - {fileID: 11480658}
+--- !u!114 &11480650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11480652}
+  m_name: start
+--- !u!114 &11480652
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11480654}
+  - {fileID: 11480656}
+--- !u!114 &11480654
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11480656
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Trust yourself. Let go of your fear...
+--- !u!114 &11480658
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11480660}
+  m_name: end
+--- !u!114 &11480660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11480662}
+--- !u!114 &11480662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11482458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11482460}
+--- !u!114 &11482460
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11482462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11482464}
+  - {fileID: 11482472}
+--- !u!114 &11482464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11482466}
+  m_name: start
+--- !u!114 &11482466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11482468}
+  - {fileID: 11482470}
+--- !u!114 &11482468
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11482470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Trust yourself. Let go of your fear...
+--- !u!114 &11482472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11482474}
+  m_name: end
+--- !u!114 &11482474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11482476}
+--- !u!114 &11482476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11498518
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11498520}
+--- !u!114 &11498520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: e
+  m_name: The Thing
+  m_color: {r: 1.0625, g: 0, b: 0, a: 1}
+--- !u!114 &11498522
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11498524}
+  - {fileID: 11498532}
+--- !u!114 &11498524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11498526}
+  m_name: start
+--- !u!114 &11498526
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11498528}
+  - {fileID: 11498530}
+--- !u!114 &11498528
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11498530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: e
+  m_speakerIsVariable: 1
+  m_text: Trust yourself. Let go of your fear...
+--- !u!114 &11498532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11498534}
+  m_name: end
+--- !u!114 &11498534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11498536}
+--- !u!114 &11498536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}

@@ -1,0 +1,6718 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c355de95e90b84c41b81f9fc8b3580a5, type: 3}
+  m_Name: script-throneroom-grumpybeard
+  m_EditorClassIdentifier: 
+  Title: ThroneRoom-Grumpybeard
+  Blocks:
+  - {fileID: 11440244}
+  - {fileID: 11440250}
+  audioKeys:
+  - ff-hubworld2-12.wav
+  - ff-hubworld2-13.wav
+  - fivesec-silence-track.wav
+  - kg-line1.wav
+  - kg-line2.wav
+  - kg-line3.wav
+  - kg-line4.wav
+  - kg-line5.wav
+  audioValues:
+  - {fileID: 8300000, guid: ce89e6fd30fa0864d8ae03d722458a5e, type: 3}
+  - {fileID: 8300000, guid: b99cb206b22d02b4c974f89f18617c46, type: 3}
+  - {fileID: 8300000, guid: dae7b8c83d0b24e76b205d97aad82759, type: 3}
+  - {fileID: 8300000, guid: 0865c82eed676ad45b6495ca86fb663d, type: 3}
+  - {fileID: 8300000, guid: f71a14a5fb4bbe245b87139dca5a5009, type: 3}
+  - {fileID: 8300000, guid: 77d9d2c3b3223ab49b24a03f4bcd1b33, type: 3}
+  - {fileID: 8300000, guid: 42224a0792594654590ab02ccfba261d, type: 3}
+  - {fileID: 8300000, guid: 74e0fe9c384e15f44acb8763a17ffc96, type: 3}
+  imageKeys: []
+  imageValues: []
+--- !u!114 &11403934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11403936}
+  - {fileID: 11403938}
+--- !u!114 &11403936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11403938
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpy Beard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11403940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11403942}
+  - {fileID: 11403970}
+--- !u!114 &11403942
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11403944}
+  m_name: start
+--- !u!114 &11403944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11403946}
+  - {fileID: 11403948}
+  - {fileID: 11403950}
+  - {fileID: 11403952}
+  - {fileID: 11403954}
+  - {fileID: 11403956}
+  - {fileID: 11403958}
+  - {fileID: 11403960}
+  - {fileID: 11403962}
+  - {fileID: 11403964}
+  - {fileID: 11403966}
+  - {fileID: 11403968}
+--- !u!114 &11403946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11403948
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Holy Toledo. That's the king!
+--- !u!114 &11403950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11403952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: Oh, hello there. Why, I haven't seen you in ages!
+--- !u!114 &11403954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11403956
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: I suppose you're wondering what I'm doing floating up here. Well, I really
+    couldn't tell you!
+--- !u!114 &11403958
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11403960
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much, I'm quite comfortable up here.
+--- !u!114 &11403962
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11403964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: However I'm getting quite warm in this room. Maybe find a way to get me
+    down? I'd start by talking to that fellow. I think he's sitting on my throne.
+--- !u!114 &11403966
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11403968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Whoa, he's a lot less grumpy when he's incapacitated.
+--- !u!114 &11403970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11403972}
+  m_name: end
+--- !u!114 &11403972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11403974}
+--- !u!114 &11403974
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11419004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11419006}
+  - {fileID: 11419008}
+--- !u!114 &11419006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11419008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpy Beard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11419010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11419012}
+  - {fileID: 11419040}
+--- !u!114 &11419012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11419014}
+  m_name: start
+--- !u!114 &11419014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11419016}
+  - {fileID: 11419018}
+  - {fileID: 11419020}
+  - {fileID: 11419022}
+  - {fileID: 11419024}
+  - {fileID: 11419026}
+  - {fileID: 11419028}
+  - {fileID: 11419030}
+  - {fileID: 11419032}
+  - {fileID: 11419034}
+  - {fileID: 11419036}
+  - {fileID: 11419038}
+--- !u!114 &11419016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11419018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Holy Toledo. That's the king!
+--- !u!114 &11419020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11419022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: Oh, hello there. Why, I haven't seen you in ages!
+--- !u!114 &11419024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11419026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: I suppose you're wondering what I'm doing floating up here. Well, I really
+    couldn't tell you!
+--- !u!114 &11419028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11419030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much, I'm quite comfortable up here.
+--- !u!114 &11419032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11419034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: However I'm getting quite warm in this room. Maybe find a way to get me
+    down? I'd start by talking to that fellow. I think he's sitting on my throne.
+--- !u!114 &11419036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11419038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Whoa, he's a lot less grumpy when he's incapacitated.
+--- !u!114 &11419040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11419042}
+  m_name: end
+--- !u!114 &11419042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11419044}
+--- !u!114 &11419044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11420210
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11420212}
+  - {fileID: 11420214}
+--- !u!114 &11420212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11420214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpy Beard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11420216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11420218}
+  - {fileID: 11420260}
+--- !u!114 &11420218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11420220}
+  m_name: start
+--- !u!114 &11420220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11420222}
+  - {fileID: 11420224}
+  - {fileID: 11420226}
+  - {fileID: 11420228}
+  - {fileID: 11420230}
+  - {fileID: 11420232}
+  - {fileID: 11420234}
+  - {fileID: 11420236}
+  - {fileID: 11420238}
+  - {fileID: 11420240}
+  - {fileID: 11420242}
+  - {fileID: 11420244}
+  - {fileID: 11420246}
+  - {fileID: 11420248}
+  - {fileID: 11420250}
+  - {fileID: 11420252}
+  - {fileID: 11420254}
+  - {fileID: 11420256}
+  - {fileID: 11420258}
+--- !u!114 &11420222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-12.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11420224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Holy Toledo. It\u2019s the king!"
+--- !u!114 &11420226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line1.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11420228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Oh, hello there. I haven\u2019t seen you in ages!"
+--- !u!114 &11420230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11420232
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line2.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11420234
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "I suppose you\u2019re wondering what I\u2019m doing floating up here. Well,
+    I\u2019ll never tell!"
+--- !u!114 &11420236
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11420238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line3.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11420240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much, I\u2019m quite comfortable up here."
+--- !u!114 &11420242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11420244
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line4.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11420246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "The quiet\u2019s been very nice actually. However I\u2019m getting quite
+    warm in this room."
+--- !u!114 &11420248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11420250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line5.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11420252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Maybe find a way to get me down? I\u2019d start by talking with that fellow
+    sitting on my throne."
+--- !u!114 &11420254
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .400000006
+--- !u!114 &11420256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-13.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11420258
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Whoa, he\u2019s a lot less grumpy when he\u2019s incapacitated."
+--- !u!114 &11420260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11420262}
+  m_name: end
+--- !u!114 &11420262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11420264}
+--- !u!114 &11420264
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11420290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11420292}
+  - {fileID: 11420294}
+--- !u!114 &11420292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11420294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpybeard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11420296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11420298}
+  - {fileID: 11420340}
+--- !u!114 &11420298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11420300}
+  m_name: start
+--- !u!114 &11420300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11420302}
+  - {fileID: 11420304}
+  - {fileID: 11420306}
+  - {fileID: 11420308}
+  - {fileID: 11420310}
+  - {fileID: 11420312}
+  - {fileID: 11420314}
+  - {fileID: 11420316}
+  - {fileID: 11420318}
+  - {fileID: 11420320}
+  - {fileID: 11420322}
+  - {fileID: 11420324}
+  - {fileID: 11420326}
+  - {fileID: 11420328}
+  - {fileID: 11420330}
+  - {fileID: 11420332}
+  - {fileID: 11420334}
+  - {fileID: 11420336}
+  - {fileID: 11420338}
+--- !u!114 &11420302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-12.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11420304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Holy Toledo. It\u2019s the King!"
+--- !u!114 &11420306
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line1.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11420308
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Oh, hello there. I haven\u2019t seen you in ages!"
+--- !u!114 &11420310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11420312
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line2.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11420314
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "I suppose you\u2019re wondering what I\u2019m doing floating up here. Well,
+    I\u2019ll never tell!"
+--- !u!114 &11420316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11420318
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line3.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11420320
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much. I\u2019m quite comfortable up here."
+--- !u!114 &11420322
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11420324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line4.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11420326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "The quiet\u2019s been very nice actually. However, I\u2019m getting quite
+    warm in this room."
+--- !u!114 &11420328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11420330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line5.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11420332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Maybe find a way to get me down? I\u2019d start by talking with that fellow
+    sitting on my throne."
+--- !u!114 &11420334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .400000006
+--- !u!114 &11420336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-13.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11420338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Whoa, he\u2019s a lot less grumpy when he\u2019s incapacitated."
+--- !u!114 &11420340
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11420342}
+  m_name: end
+--- !u!114 &11420342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11420344}
+--- !u!114 &11420344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11422988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11422990}
+  - {fileID: 11422992}
+--- !u!114 &11422990
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11422992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpybeard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11422994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11422996}
+  - {fileID: 11423038}
+--- !u!114 &11422996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11422998}
+  m_name: start
+--- !u!114 &11422998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11423000}
+  - {fileID: 11423002}
+  - {fileID: 11423004}
+  - {fileID: 11423006}
+  - {fileID: 11423008}
+  - {fileID: 11423010}
+  - {fileID: 11423012}
+  - {fileID: 11423014}
+  - {fileID: 11423016}
+  - {fileID: 11423018}
+  - {fileID: 11423020}
+  - {fileID: 11423022}
+  - {fileID: 11423024}
+  - {fileID: 11423026}
+  - {fileID: 11423028}
+  - {fileID: 11423030}
+  - {fileID: 11423032}
+  - {fileID: 11423034}
+  - {fileID: 11423036}
+--- !u!114 &11423000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-12.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11423002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Holy Toledo. It\u2019s the King!"
+--- !u!114 &11423004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line1.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11423006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Oh, hello there. I haven\u2019t seen you in ages!"
+--- !u!114 &11423008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11423010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line2.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11423012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "I suppose you\u2019re wondering what I\u2019m doing floating up here. Well,
+    I\u2019ll never tell!"
+--- !u!114 &11423014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11423016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line3.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11423018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much. I\u2019m quite comfortable up here."
+--- !u!114 &11423020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11423022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line4.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11423024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "The quiet\u2019s been very nice actually. However, I\u2019m getting quite
+    warm in this room."
+--- !u!114 &11423026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11423028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line5.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11423030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Maybe find a way to get me down? I\u2019d start by talking with that fellow
+    sitting on my throne."
+--- !u!114 &11423032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .400000006
+--- !u!114 &11423034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-13.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11423036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Whoa, he\u2019s a lot less grumpy when he\u2019s incapacitated."
+--- !u!114 &11423038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11423040}
+  m_name: end
+--- !u!114 &11423040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11423042}
+--- !u!114 &11423042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11435076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11435078}
+  - {fileID: 11435080}
+--- !u!114 &11435078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11435080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpy Beard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11435082
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11435084}
+  - {fileID: 11435126}
+--- !u!114 &11435084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11435086}
+  m_name: start
+--- !u!114 &11435086
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11435088}
+  - {fileID: 11435090}
+  - {fileID: 11435092}
+  - {fileID: 11435094}
+  - {fileID: 11435096}
+  - {fileID: 11435098}
+  - {fileID: 11435100}
+  - {fileID: 11435102}
+  - {fileID: 11435104}
+  - {fileID: 11435106}
+  - {fileID: 11435108}
+  - {fileID: 11435110}
+  - {fileID: 11435112}
+  - {fileID: 11435114}
+  - {fileID: 11435116}
+  - {fileID: 11435118}
+  - {fileID: 11435120}
+  - {fileID: 11435122}
+  - {fileID: 11435124}
+--- !u!114 &11435088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-12.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11435090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Holy Toledo. It's the king!
+--- !u!114 &11435092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line1.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11435094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: Oh, hello there. I haven't seen you in ages!
+--- !u!114 &11435096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11435098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line2.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11435100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: I suppose you're wondering what I'm doing floating up here. Well, I'll never
+    tell!
+--- !u!114 &11435102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11435104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line3.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11435106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much, I'm quite comfortable up here.
+--- !u!114 &11435108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11435110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line4.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11435112
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: The quiet's been very nice actually. However I'm getting quite warm in this
+    room.
+--- !u!114 &11435114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11435116
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line5.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11435118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: Maybe find a way to get me down? I'd start by talking with that fellow sitting
+    on my throne.
+--- !u!114 &11435120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .400000006
+--- !u!114 &11435122
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-13.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11435124
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Whoa, he's a lot less grumpy when he's incapacitated.
+--- !u!114 &11435126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11435128}
+  m_name: end
+--- !u!114 &11435128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11435130}
+--- !u!114 &11435130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11437326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11437328}
+  - {fileID: 11437330}
+--- !u!114 &11437328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11437330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpy Beard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11437332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11437334}
+  - {fileID: 11437362}
+--- !u!114 &11437334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11437336}
+  m_name: start
+--- !u!114 &11437336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11437338}
+  - {fileID: 11437340}
+  - {fileID: 11437342}
+  - {fileID: 11437344}
+  - {fileID: 11437346}
+  - {fileID: 11437348}
+  - {fileID: 11437350}
+  - {fileID: 11437352}
+  - {fileID: 11437354}
+  - {fileID: 11437356}
+  - {fileID: 11437358}
+  - {fileID: 11437360}
+--- !u!114 &11437338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11437340
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Holy Toledo. That's the king!
+--- !u!114 &11437342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11437344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: Oh, hello there. Why, I haven't seen you in ages!
+--- !u!114 &11437346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11437348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: I suppose you're wondering what I'm doing floating up here. Well, I really
+    couldn't tell you!
+--- !u!114 &11437350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11437352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much, I'm quite comfortable up here.
+--- !u!114 &11437354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11437356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: However I'm getting quite warm in this room. Maybe find a way to get me
+    down? I'd start by talking to that fellow. I think he's sitting on my throne.
+--- !u!114 &11437358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11437360
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Whoa, he's a lot less grumpy when he's incapacitated.
+--- !u!114 &11437362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11437364}
+  m_name: end
+--- !u!114 &11437364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11437366}
+--- !u!114 &11437366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11440244
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11440246}
+  - {fileID: 11440248}
+--- !u!114 &11440246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11440248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpybeard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11440250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11440252}
+  - {fileID: 11440294}
+--- !u!114 &11440252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11440254}
+  m_name: start
+--- !u!114 &11440254
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11440256}
+  - {fileID: 11440258}
+  - {fileID: 11440260}
+  - {fileID: 11440262}
+  - {fileID: 11440264}
+  - {fileID: 11440266}
+  - {fileID: 11440268}
+  - {fileID: 11440270}
+  - {fileID: 11440272}
+  - {fileID: 11440274}
+  - {fileID: 11440276}
+  - {fileID: 11440278}
+  - {fileID: 11440280}
+  - {fileID: 11440282}
+  - {fileID: 11440284}
+  - {fileID: 11440286}
+  - {fileID: 11440288}
+  - {fileID: 11440290}
+  - {fileID: 11440292}
+--- !u!114 &11440256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-12.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11440258
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Holy Toledo. It\u2019s the King!"
+--- !u!114 &11440260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line1.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11440262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Oh, hello there. I haven\u2019t seen you in ages!"
+--- !u!114 &11440264
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11440266
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line2.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11440268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "I suppose you\u2019re wondering what I\u2019m doing floating up here. Well,
+    I\u2019ll never tell!"
+--- !u!114 &11440270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11440272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line3.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11440274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much. I\u2019m quite comfortable up here."
+--- !u!114 &11440276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11440278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line4.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11440280
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "The quiet\u2019s been very nice actually. However, I\u2019m getting quite
+    warm in this room."
+--- !u!114 &11440282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11440284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line5.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11440286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Maybe find a way to get me down? I\u2019d start by talking with that fellow
+    sitting on my throne."
+--- !u!114 &11440288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .400000006
+--- !u!114 &11440290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-13.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11440292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Whoa, he\u2019s a lot less grumpy when he\u2019s incapacitated."
+--- !u!114 &11440294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11440296}
+  m_name: end
+--- !u!114 &11440296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11440298}
+--- !u!114 &11440298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11455128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11455130}
+  - {fileID: 11455132}
+--- !u!114 &11455130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11455132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpy Beard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11455134
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11455136}
+  - {fileID: 11455164}
+--- !u!114 &11455136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11455138}
+  m_name: start
+--- !u!114 &11455138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11455140}
+  - {fileID: 11455142}
+  - {fileID: 11455144}
+  - {fileID: 11455146}
+  - {fileID: 11455148}
+  - {fileID: 11455150}
+  - {fileID: 11455152}
+  - {fileID: 11455154}
+  - {fileID: 11455156}
+  - {fileID: 11455158}
+  - {fileID: 11455160}
+  - {fileID: 11455162}
+--- !u!114 &11455140
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11455142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Holy Toledo. That's the king!
+--- !u!114 &11455144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11455146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: Oh, hello there. Why, I haven't seen you in ages!
+--- !u!114 &11455148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11455150
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: I suppose you're wondering what I'm doing floating up here. Well, I really
+    couldn't tell you!
+--- !u!114 &11455152
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11455154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much, I'm quite comfortable up here.
+--- !u!114 &11455156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11455158
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: However I'm getting quite warm in this room. Maybe find a way to get me
+    down? I'd start by talking to that fellow. I think he's sitting on my throne.
+--- !u!114 &11455160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11455162
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Whoa, he's a lot less grumpy when he's incapacitated.
+--- !u!114 &11455164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11455166}
+  m_name: end
+--- !u!114 &11455166
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11455168}
+--- !u!114 &11455168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11458336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11458338}
+  - {fileID: 11458340}
+--- !u!114 &11458338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11458340
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpybeard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11458342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11458344}
+  - {fileID: 11458386}
+--- !u!114 &11458344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11458346}
+  m_name: start
+--- !u!114 &11458346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11458348}
+  - {fileID: 11458350}
+  - {fileID: 11458352}
+  - {fileID: 11458354}
+  - {fileID: 11458356}
+  - {fileID: 11458358}
+  - {fileID: 11458360}
+  - {fileID: 11458362}
+  - {fileID: 11458364}
+  - {fileID: 11458366}
+  - {fileID: 11458368}
+  - {fileID: 11458370}
+  - {fileID: 11458372}
+  - {fileID: 11458374}
+  - {fileID: 11458376}
+  - {fileID: 11458378}
+  - {fileID: 11458380}
+  - {fileID: 11458382}
+  - {fileID: 11458384}
+--- !u!114 &11458348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-12.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11458350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Holy Toledo. It\u2019s the King!"
+--- !u!114 &11458352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line1.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11458354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Oh, hello there. I haven\u2019t seen you in ages!"
+--- !u!114 &11458356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11458358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line2.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11458360
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "I suppose you\u2019re wondering what I\u2019m doing floating up here. Well,
+    I\u2019ll never tell!"
+--- !u!114 &11458362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11458364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line3.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11458366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much. I\u2019m quite comfortable up here."
+--- !u!114 &11458368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11458370
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line4.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11458372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "The quiet\u2019s been very nice actually. However, I\u2019m getting quite
+    warm in this room."
+--- !u!114 &11458374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11458376
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line5.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11458378
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Maybe find a way to get me down? I\u2019d start by talking with that fellow
+    sitting on my throne."
+--- !u!114 &11458380
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .400000006
+--- !u!114 &11458382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-13.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11458384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Whoa, he\u2019s a lot less grumpy when he\u2019s incapacitated."
+--- !u!114 &11458386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11458388}
+  m_name: end
+--- !u!114 &11458388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11458390}
+--- !u!114 &11458390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11458836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11458838}
+  - {fileID: 11458840}
+--- !u!114 &11458838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11458840
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpy Beard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11458842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11458844}
+  - {fileID: 11458886}
+--- !u!114 &11458844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11458846}
+  m_name: start
+--- !u!114 &11458846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11458848}
+  - {fileID: 11458850}
+  - {fileID: 11458852}
+  - {fileID: 11458854}
+  - {fileID: 11458856}
+  - {fileID: 11458858}
+  - {fileID: 11458860}
+  - {fileID: 11458862}
+  - {fileID: 11458864}
+  - {fileID: 11458866}
+  - {fileID: 11458868}
+  - {fileID: 11458870}
+  - {fileID: 11458872}
+  - {fileID: 11458874}
+  - {fileID: 11458876}
+  - {fileID: 11458878}
+  - {fileID: 11458880}
+  - {fileID: 11458882}
+  - {fileID: 11458884}
+--- !u!114 &11458848
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-12.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11458850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Holy Toledo. It\u2019s the king!"
+--- !u!114 &11458852
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line1.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11458854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Oh, hello there. I haven\u2019t seen you in ages!"
+--- !u!114 &11458856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11458858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line2.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11458860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "I suppose you\u2019re wondering what I\u2019m doing floating up here. Well,
+    I\u2019ll never tell!"
+--- !u!114 &11458862
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11458864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line3.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11458866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much, I\u2019m quite comfortable up here."
+--- !u!114 &11458868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11458870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line4.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11458872
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "The quiet\u2019s been very nice actually. However I\u2019m getting quite
+    warm in this room."
+--- !u!114 &11458874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11458876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line5.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11458878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Maybe find a way to get me down? I\u2019d start by talking with that fellow
+    sitting on my throne."
+--- !u!114 &11458880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .400000006
+--- !u!114 &11458882
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-13.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11458884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Whoa, he\u2019s a lot less grumpy when he\u2019s incapacitated."
+--- !u!114 &11458886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11458888}
+  m_name: end
+--- !u!114 &11458888
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11458890}
+--- !u!114 &11458890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11469788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11469790}
+  - {fileID: 11469792}
+--- !u!114 &11469790
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11469792
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpy Beard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11469794
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11469796}
+  - {fileID: 11469838}
+--- !u!114 &11469796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11469798}
+  m_name: start
+--- !u!114 &11469798
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11469800}
+  - {fileID: 11469802}
+  - {fileID: 11469804}
+  - {fileID: 11469806}
+  - {fileID: 11469808}
+  - {fileID: 11469810}
+  - {fileID: 11469812}
+  - {fileID: 11469814}
+  - {fileID: 11469816}
+  - {fileID: 11469818}
+  - {fileID: 11469820}
+  - {fileID: 11469822}
+  - {fileID: 11469824}
+  - {fileID: 11469826}
+  - {fileID: 11469828}
+  - {fileID: 11469830}
+  - {fileID: 11469832}
+  - {fileID: 11469834}
+  - {fileID: 11469836}
+--- !u!114 &11469800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-12.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11469802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Holy Toledo. It\u2019s the king!"
+--- !u!114 &11469804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line1.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11469806
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Oh, hello there. I haven\u2019t seen you in ages!"
+--- !u!114 &11469808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11469810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line2.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11469812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "I suppose you\u2019re wondering what I\u2019m doing floating up here. Well,
+    I\u2019ll never tell!"
+--- !u!114 &11469814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11469816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line3.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11469818
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much. I\u2019m quite comfortable up here."
+--- !u!114 &11469820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11469822
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line4.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11469824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "The quiet\u2019s been very nice actually. However, I\u2019m getting quite
+    warm in this room."
+--- !u!114 &11469826
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11469828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line5.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11469830
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Maybe find a way to get me down? I\u2019d start by talking with that fellow
+    sitting on my throne."
+--- !u!114 &11469832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .400000006
+--- !u!114 &11469834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-13.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11469836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Whoa, he\u2019s a lot less grumpy when he\u2019s incapacitated."
+--- !u!114 &11469838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11469840}
+  m_name: end
+--- !u!114 &11469840
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11469842}
+--- !u!114 &11469842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11476210
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11476212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11476210}
+--- !u!114 &11476214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11476212}
+  m_name: end
+--- !u!114 &11476216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Whoa, he's a lot less grumpy when he's incapacitated.
+--- !u!114 &11476218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11476220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: However I'm getting quite warm in this room. Maybe find a way to get me
+    down? I'd start by talking to that fellow. I think he's sitting on my throne.
+--- !u!114 &11476222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11476224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much, I'm quite comfortable up here.
+--- !u!114 &11476226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11476228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: I suppose you're wondering what I'm doing floating up here. Well, I really
+    couldn't tell you!
+--- !u!114 &11476230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11476232
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: Oh, hello there. Why, I haven't seen you in ages!
+--- !u!114 &11476234
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11476236
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Holy Toledo. That's the king!
+--- !u!114 &11476238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11476240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11476238}
+  - {fileID: 11476236}
+  - {fileID: 11476234}
+  - {fileID: 11476232}
+  - {fileID: 11476230}
+  - {fileID: 11476228}
+  - {fileID: 11476226}
+  - {fileID: 11476224}
+  - {fileID: 11476222}
+  - {fileID: 11476220}
+  - {fileID: 11476218}
+  - {fileID: 11476216}
+--- !u!114 &11476242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11476240}
+  m_name: start
+--- !u!114 &11476244
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11476242}
+  - {fileID: 11476214}
+--- !u!114 &11476246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpy Beard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11476248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11476250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11476248}
+  - {fileID: 11476246}
+--- !u!114 &11476252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11476254
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11476252}
+--- !u!114 &11476256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11476254}
+  m_name: end
+--- !u!114 &11476258
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Whoa, he's a lot less grumpy when he's incapacitated.
+--- !u!114 &11476260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11476262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: However I'm getting quite warm in this room. Maybe find a way to get me
+    down? I'd start by talking to that fellow. I think he's sitting on my throne.
+--- !u!114 &11476264
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11476266
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much, I'm quite comfortable up here.
+--- !u!114 &11476268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11476270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: I suppose you're wondering what I'm doing floating up here. Well, I really
+    couldn't tell you!
+--- !u!114 &11476272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11476274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: Oh, hello there. Why, I haven't seen you in ages!
+--- !u!114 &11476276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11476278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Holy toledo. That's the king!
+--- !u!114 &11476280
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11476282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11476280}
+  - {fileID: 11476278}
+  - {fileID: 11476276}
+  - {fileID: 11476274}
+  - {fileID: 11476272}
+  - {fileID: 11476270}
+  - {fileID: 11476268}
+  - {fileID: 11476266}
+  - {fileID: 11476264}
+  - {fileID: 11476262}
+  - {fileID: 11476260}
+  - {fileID: 11476258}
+--- !u!114 &11476284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11476282}
+  m_name: start
+--- !u!114 &11476286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11476284}
+  - {fileID: 11476256}
+--- !u!114 &11476288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpy Beard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11476290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11476292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11476290}
+  - {fileID: 11476288}
+--- !u!114 &11489252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11489254}
+  - {fileID: 11489256}
+--- !u!114 &11489254
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11489256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpy Beard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11489258
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11489260}
+  - {fileID: 11489288}
+--- !u!114 &11489260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11489262}
+  m_name: start
+--- !u!114 &11489262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11489264}
+  - {fileID: 11489266}
+  - {fileID: 11489268}
+  - {fileID: 11489270}
+  - {fileID: 11489272}
+  - {fileID: 11489274}
+  - {fileID: 11489276}
+  - {fileID: 11489278}
+  - {fileID: 11489280}
+  - {fileID: 11489282}
+  - {fileID: 11489284}
+  - {fileID: 11489286}
+--- !u!114 &11489264
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11489266
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Holy Toledo. That's the king!
+--- !u!114 &11489268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11489270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: Oh, hello there. Why, I haven't seen you in ages!
+--- !u!114 &11489272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11489274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: I suppose you're wondering what I'm doing floating up here. Well, I really
+    couldn't tell you!
+--- !u!114 &11489276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11489278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much, I'm quite comfortable up here.
+--- !u!114 &11489280
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11489282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: However I'm getting quite warm in this room. Maybe find a way to get me
+    down? I'd start by talking to that fellow. I think he's sitting on my throne.
+--- !u!114 &11489284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: fivesec-silence-track.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11489286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: Whoa, he's a lot less grumpy when he's incapacitated.
+--- !u!114 &11489288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11489290}
+  m_name: end
+--- !u!114 &11489290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11489292}
+--- !u!114 &11489292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}
+--- !u!114 &11493972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11493974}
+  - {fileID: 11493976}
+--- !u!114 &11493974
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: ff
+  m_name: Frinchfry
+  m_color: {r: .55078125, g: 1.0625, b: .55078125, a: 1}
+--- !u!114 &11493976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057eb4e29c5d0e4486bfbe1ccb000f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_nestedBlocks: []
+  m_varName: gb
+  m_name: King Grumpy Beard
+  m_color: {r: .46875, g: .98828125, b: .80859375, a: 1}
+--- !u!114 &11493978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11493980}
+  - {fileID: 11494022}
+--- !u!114 &11493980
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11493982}
+  m_name: start
+--- !u!114 &11493982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11493984}
+  - {fileID: 11493986}
+  - {fileID: 11493988}
+  - {fileID: 11493990}
+  - {fileID: 11493992}
+  - {fileID: 11493994}
+  - {fileID: 11493996}
+  - {fileID: 11493998}
+  - {fileID: 11494000}
+  - {fileID: 11494002}
+  - {fileID: 11494004}
+  - {fileID: 11494006}
+  - {fileID: 11494008}
+  - {fileID: 11494010}
+  - {fileID: 11494012}
+  - {fileID: 11494014}
+  - {fileID: 11494016}
+  - {fileID: 11494018}
+  - {fileID: 11494020}
+--- !u!114 &11493984
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-12.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11493986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Holy Toledo. It\u2019s the king!"
+--- !u!114 &11493988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line1.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11493990
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Oh, hello there. I haven\u2019t seen you in ages!"
+--- !u!114 &11493992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11493994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line2.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11493996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "I suppose you\u2019re wondering what I\u2019m doing floating up here. Well,
+    I\u2019ll never tell!"
+--- !u!114 &11493998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11494000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line3.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11494002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "That man-shadow-thing just flew in here and really made himself at home.
+    Not that I mind too much, I\u2019m quite comfortable up here."
+--- !u!114 &11494004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11494006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line4.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11494008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "The quiet\u2019s been very nice actually. However I\u2019m getting quite
+    warm in this room."
+--- !u!114 &11494010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .200000003
+--- !u!114 &11494012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: kg-line5.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11494014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: gb
+  m_speakerIsVariable: 1
+  m_text: "Maybe find a way to get me down? I\u2019d start by talking with that fellow
+    sitting on my throne."
+--- !u!114 &11494016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88860d5c828814152b1b3d01db603ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 16
+  m_nestedBlocks: []
+  m_time: .400000006
+--- !u!114 &11494018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7939d5e60779e8a4ca9d678ed1f3832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 17
+  m_nestedBlocks: []
+  m_channel: voice
+  m_file: ff-hubworld2-13.wav
+  m_loop: 0
+  m_ifChanged: 0
+  m_fadeinTime: 0
+  m_fadeoutTime: 0
+--- !u!114 &11494020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eee97cfc778f84cb10082e5c75e318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 20
+  m_nestedBlocks: []
+  m_speaker: ff
+  m_speakerIsVariable: 1
+  m_text: "Whoa, he\u2019s a lot less grumpy when he\u2019s incapacitated."
+--- !u!114 &11494022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7428d48f134c290418b65d79a101f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 11
+  m_nestedBlocks:
+  - {fileID: 11494024}
+  m_name: end
+--- !u!114 &11494024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92afd804eebd3714f90e3a1b3d91b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statements:
+  - {fileID: 11494026}
+--- !u!114 &11494026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2f7222555479f45afeabd6d8e665e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 19
+  m_nestedBlocks: []
+  m_expression: {fileID: 0}

@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: 1609755c04b184c589c71b3ea3d84b91
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: doorPart
+    100002: hingeOnDoor1
+    100004: hingeOnDoor2
+    100006: hingeOnWall1
+    100008: hingeOnWall2
+    100010: pCube12
+    100012: pCube12 1
+    100014: pCube13
+    100016: pCube13 1
+    100018: pPipe1
+    100020: pPipe1 1
+    100022: pPipe2
+    100024: pPipe2 1
+    100026: pPipe3
+    100028: pPipe3 1
+    100030: //RootNode
+    100032: wallPart
+    100034: wood
+    400000: doorPart
+    400002: hingeOnDoor1
+    400004: hingeOnDoor2
+    400006: hingeOnWall1
+    400008: hingeOnWall2
+    400010: pCube12
+    400012: pCube12 1
+    400014: pCube13
+    400016: pCube13 1
+    400018: pPipe1
+    400020: pPipe1 1
+    400022: pPipe2
+    400024: pPipe2 1
+    400026: pPipe3
+    400028: pPipe3 1
+    400030: //RootNode
+    400032: wallPart
+    400034: wood
+    2300000: pCube12
+    2300002: pCube12 1
+    2300004: pCube13
+    2300006: pCube13 1
+    2300008: pPipe1
+    2300010: pPipe1 1
+    2300012: pPipe2
+    2300014: pPipe2 1
+    2300016: pPipe3
+    2300018: pPipe3 1
+    2300020: wood
+    3300000: pCube12
+    3300002: pCube12 1
+    3300004: pCube13
+    3300006: pCube13 1
+    3300008: pPipe1
+    3300010: pPipe1 1
+    3300012: pPipe2
+    3300014: pPipe2 1
+    3300016: pPipe3
+    3300018: pPipe3 1
+    3300020: wood
+    4300000: pPipe1
+    4300002: pPipe3
+    4300004: pCube12
+    4300006: pPipe1
+    4300008: pPipe3
+    4300010: pCube12
+    4300012: wood
+    4300014: pPipe2
+    4300016: pCube13
+    4300018: pPipe2
+    4300020: pCube13
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

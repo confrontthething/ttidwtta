@@ -1,0 +1,33 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+ScriptError: could not find label 'start'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 29, in script
+    $ ui.interact()
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\ast.py", line 785, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\python.py", line 1382, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "renpy/common/_layout/screen_main_menu.rpym", line 29, in <module>
+    $ ui.interact()
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\ui.py", line 247, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\display\core.py", line 2149, in interact
+    repeat, rv = self.interact_core(preloads=preloads, **kwargs)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\display\core.py", line 2591, in interact_core
+    result = prediction_coroutine.send(expensive_predict)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\display\predict.py", line 119, in prediction_coroutine
+    for _i in renpy.game.context().predict():
+  File "renpy/common/_layout/screen_main_menu.rpym", line 29, in script
+    $ ui.interact()
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\script.py", line 595, in lookup
+    raise ScriptError("could not find label '%s'." % str(label))
+ScriptError: could not find label 'start'.
+
+Windows-post2008Server-6.2.9200
+Ren'Py 6.18.3.761
+CastleGuard1 0.0

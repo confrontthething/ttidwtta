@@ -1,0 +1,19 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+IOError: [Errno 13] Permission denied: 'C:\\Perforce\\ThingGame\\Assets\\Narration\\RenPy\\ThroneRoom-FrinchfryPrompt\\tmp\\navigation.json'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\bootstrap.py", line 289, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\main.py", line 324, in main
+    renpy.dump.dump(False)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\dump.py", line 239, in dump
+    with file(args.json_dump, "w") as f:
+IOError: [Errno 13] Permission denied: 'C:\\Perforce\\ThingGame\\Assets\\Narration\\RenPy\\ThroneRoom-FrinchfryPrompt\\tmp\\navigation.json'
+
+Windows-post2008Server-6.2.9200
+Ren'Py 6.18.3.761
+audiohint-0 0.0

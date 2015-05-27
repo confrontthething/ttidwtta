@@ -1,0 +1,27 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+WindowsError: [Error 5] Access is denied: u'C:\\Perforce\\ThingGame\\Assets\\Narration\\RenPy\\Otherworld-3/game\\saves\\persistent'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\bootstrap.py", line 289, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\main.py", line 360, in main
+    renpy.persistent.update(True)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\persistent.py", line 359, in update
+    save()
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\persistent.py", line 369, in save
+    renpy.loadsave.location.save_persistent(data)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\savelocation.py", line 445, in save_persistent
+    l.save_persistent(data)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\savelocation.py", line 316, in save_persistent
+    safe_rename(fn_new, fn)
+  File "C:\Users\Bri\Desktop\Stuff\renpy-6.18.3-sdk\renpy\loadsave.py", line 191, in safe_rename
+    os.unlink(new)
+WindowsError: [Error 5] Access is denied: u'C:\\Perforce\\ThingGame\\Assets\\Narration\\RenPy\\Otherworld-3/game\\saves\\persistent'
+
+Windows-post2008Server-6.2.9200
+Ren'Py 6.18.3.761
+audiohint-0 0.0

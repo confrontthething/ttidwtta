@@ -1,0 +1,763 @@
+fileFormatVersion: 2
+guid: 1192752c34d284cf69db68883a5981fc
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: bars
+    100002: bars 1
+    100004: bars 2
+    100006: cell
+    100008: cell 1
+    100010: cell 2
+    100012: cell 3
+    100014: cell 4
+    100016: cell 5
+    100018: //RootNode
+    100020: grate1
+    100022: grate1 1
+    100024: grate1 2
+    100026: grate10
+    100028: grate10 1
+    100030: grate10 2
+    100032: grate11
+    100034: grate11 1
+    100036: grate11 2
+    100038: grate12
+    100040: grate12 1
+    100042: grate12 2
+    100044: grate13
+    100046: grate13 1
+    100048: grate13 2
+    100050: grate14
+    100052: grate14 1
+    100054: grate14 2
+    100056: grate15
+    100058: grate15 1
+    100060: grate15 2
+    100062: grate16
+    100064: grate16 1
+    100066: grate16 2
+    100068: grate17
+    100070: grate17 1
+    100072: grate17 2
+    100074: grate18
+    100076: grate18 1
+    100078: grate18 2
+    100080: grates
+    100082: grates 1
+    100084: grates 2
+    100086: level
+    100088: stairs
+    100090: stairsCollider
+    100092: unit1
+    100094: unit2
+    100096: unit3
+    100098: window
+    100100: windows
+    100102: windows 1
+    100104: levelOne
+    100106: rupeeHolder
+    100108: portalRoom
+    100110: doorTemplate
+    100112: firePitRoom
+    100114: hallWidthTemplate
+    100116: hall
+    100118: hallOpeningTemplate
+    100120: stairsDownToMain
+    100122: steps
+    100124: stepsCollider
+    100126: pCube2
+    100128: bridgeFightRoom
+    100130: activityRoom1
+    100132: activityRoom2
+    100134: bottomStep
+    100136: hall1
+    100138: hall10
+    100140: hall2
+    100142: hall3
+    100144: hall4
+    100146: hall5
+    100148: hall6
+    100150: hall7
+    100152: hall8
+    100154: hall9
+    100156: levelOneFirePit
+    100158: levelOneFirePit1
+    100160: mainSteps
+    100162: modularDungeonRoot
+    100164: modularZeroPoint
+    100166: templates
+    100168: stairsUpToPlatform
+    100170: activityRoom1_pit
+    100172: doorFrame
+    100174: doorFrame1
+    100176: doorFrame2
+    100178: activityRoom2_pit
+    100180: activityRoom1_ledge1
+    100182: activityRoom1_ledge2
+    100184: activityRoom2_ledge1
+    100186: activityRoom2_ledge2
+    100188: stairsDownDoorFrame
+    100190: group20
+    100192: pCube1
+    100194: pCylinder3
+    100196: portallRoomDoorFrame
+    100198: pPlane1
+    100200: pPlane10
+    100202: pPlane11
+    100204: pPlane12
+    100206: pPlane13
+    100208: pPlane14
+    100210: pPlane15
+    100212: pPlane16
+    100214: pPlane17
+    100216: pPlane18
+    100218: pPlane19
+    100220: pPlane2
+    100222: pPlane3
+    100224: pPlane4
+    100226: pPlane5
+    100228: pPlane6
+    100230: pPlane7
+    100232: pPlane8
+    100234: pPlane9
+    100236: portalRoomDoorFrame
+    100238: stairwell
+    100240: bottomStep 1
+    100242: bridgeRoom
+    100244: bridgeRoom_pit
+    100246: bridgeRoom_portal
+    100248: combatTutorial
+    100250: darkHallA
+    100252: darkHallB
+    100254: darkHallC
+    100256: darkHallD
+    100258: darkHallE
+    100260: darkHallToSimonSays
+    100262: doorBlock
+    100264: exitStairs
+    100266: firePitAreaA
+    100268: firePitAreaB
+    100270: hallAToBridgeRoom
+    100272: hallBToBridgeRoom
+    100274: hallToCombatTutorial
+    100276: hallToExitStairs
+    100278: hallToSplit
+    100280: hallToStaffRoom
+    100282: levelOne_falseDoorFrame
+    100284: lightHallA
+    100286: lightHallB
+    100288: lightHallToSimonSays
+    100290: mainStairs
+    100292: mainStairs_portal
+    100294: mainSteps 1
+    100296: simonSays
+    100298: simonSays_pit
+    100300: staffRoom
+    100302: steps 1
+    100304: stepsCollider 1
+    100306: hallToExitStairs_lightBox
+    100308: darkHallF
+    400000: bars
+    400002: bars 1
+    400004: bars 2
+    400006: cell
+    400008: cell 1
+    400010: cell 2
+    400012: cell 3
+    400014: cell 4
+    400016: cell 5
+    400018: //RootNode
+    400020: grate1
+    400022: grate1 1
+    400024: grate1 2
+    400026: grate10
+    400028: grate10 1
+    400030: grate10 2
+    400032: grate11
+    400034: grate11 1
+    400036: grate11 2
+    400038: grate12
+    400040: grate12 1
+    400042: grate12 2
+    400044: grate13
+    400046: grate13 1
+    400048: grate13 2
+    400050: grate14
+    400052: grate14 1
+    400054: grate14 2
+    400056: grate15
+    400058: grate15 1
+    400060: grate15 2
+    400062: grate16
+    400064: grate16 1
+    400066: grate16 2
+    400068: grate17
+    400070: grate17 1
+    400072: grate17 2
+    400074: grate18
+    400076: grate18 1
+    400078: grate18 2
+    400080: grates
+    400082: grates 1
+    400084: grates 2
+    400086: level
+    400088: stairs
+    400090: stairsCollider
+    400092: unit1
+    400094: unit2
+    400096: unit3
+    400098: window
+    400100: windows
+    400102: windows 1
+    400104: levelOne
+    400106: rupeeHolder
+    400108: portalRoom
+    400110: doorTemplate
+    400112: firePitRoom
+    400114: hallWidthTemplate
+    400116: hall
+    400118: hallOpeningTemplate
+    400120: stairsDownToMain
+    400122: steps
+    400124: stepsCollider
+    400126: pCube2
+    400128: bridgeFightRoom
+    400130: activityRoom1
+    400132: activityRoom2
+    400134: bottomStep
+    400136: hall1
+    400138: hall10
+    400140: hall2
+    400142: hall3
+    400144: hall4
+    400146: hall5
+    400148: hall6
+    400150: hall7
+    400152: hall8
+    400154: hall9
+    400156: levelOneFirePit
+    400158: levelOneFirePit1
+    400160: mainSteps
+    400162: modularDungeonRoot
+    400164: modularZeroPoint
+    400166: templates
+    400168: stairsUpToPlatform
+    400170: activityRoom1_pit
+    400172: doorFrame
+    400174: doorFrame1
+    400176: doorFrame2
+    400178: activityRoom2_pit
+    400180: activityRoom1_ledge1
+    400182: activityRoom1_ledge2
+    400184: activityRoom2_ledge1
+    400186: activityRoom2_ledge2
+    400188: stairsDownDoorFrame
+    400190: group20
+    400192: pCube1
+    400194: pCylinder3
+    400196: portallRoomDoorFrame
+    400198: pPlane1
+    400200: pPlane10
+    400202: pPlane11
+    400204: pPlane12
+    400206: pPlane13
+    400208: pPlane14
+    400210: pPlane15
+    400212: pPlane16
+    400214: pPlane17
+    400216: pPlane18
+    400218: pPlane19
+    400220: pPlane2
+    400222: pPlane3
+    400224: pPlane4
+    400226: pPlane5
+    400228: pPlane6
+    400230: pPlane7
+    400232: pPlane8
+    400234: pPlane9
+    400236: portalRoomDoorFrame
+    400238: stairwell
+    400240: bottomStep 1
+    400242: bridgeRoom
+    400244: bridgeRoom_pit
+    400246: bridgeRoom_portal
+    400248: combatTutorial
+    400250: darkHallA
+    400252: darkHallB
+    400254: darkHallC
+    400256: darkHallD
+    400258: darkHallE
+    400260: darkHallToSimonSays
+    400262: doorBlock
+    400264: exitStairs
+    400266: firePitAreaA
+    400268: firePitAreaB
+    400270: hallAToBridgeRoom
+    400272: hallBToBridgeRoom
+    400274: hallToCombatTutorial
+    400276: hallToExitStairs
+    400278: hallToSplit
+    400280: hallToStaffRoom
+    400282: levelOne_falseDoorFrame
+    400284: lightHallA
+    400286: lightHallB
+    400288: lightHallToSimonSays
+    400290: mainStairs
+    400292: mainStairs_portal
+    400294: mainSteps 1
+    400296: simonSays
+    400298: simonSays_pit
+    400300: staffRoom
+    400302: steps 1
+    400304: stepsCollider 1
+    400306: hallToExitStairs_lightBox
+    400308: darkHallF
+    2300000: cell 3
+    2300002: cell 4
+    2300004: cell 5
+    2300006: grate1
+    2300008: grate1 1
+    2300010: grate1 2
+    2300012: grate10
+    2300014: grate10 1
+    2300016: grate10 2
+    2300018: grate11
+    2300020: grate11 1
+    2300022: grate11 2
+    2300024: grate12
+    2300026: grate12 1
+    2300028: grate12 2
+    2300030: grate13
+    2300032: grate13 1
+    2300034: grate13 2
+    2300036: grate14
+    2300038: grate14 1
+    2300040: grate14 2
+    2300042: grate15
+    2300044: grate15 1
+    2300046: grate15 2
+    2300048: grate16
+    2300050: grate16 1
+    2300052: grate16 2
+    2300054: grate17
+    2300056: grate17 1
+    2300058: grate17 2
+    2300060: grate18
+    2300062: grate18 1
+    2300064: grate18 2
+    2300066: level
+    2300068: stairs
+    2300070: stairsCollider
+    2300072: levelOne
+    2300074: rupeeHolder
+    2300076: portalRoom
+    2300078: doorTemplate
+    2300080: firePitRoom
+    2300082: hallWidthTemplate
+    2300084: hall
+    2300086: hallOpeningTemplate
+    2300088: steps
+    2300090: stepsCollider
+    2300092: pCube2
+    2300094: bridgeFightRoom
+    2300096: activityRoom1
+    2300098: activityRoom2
+    2300100: bottomStep
+    2300102: hall1
+    2300104: hall10
+    2300106: hall2
+    2300108: hall3
+    2300110: hall4
+    2300112: hall5
+    2300114: hall6
+    2300116: hall7
+    2300118: hall8
+    2300120: hall9
+    2300122: levelOneFirePit
+    2300124: levelOneFirePit1
+    2300126: mainSteps
+    2300128: activityRoom1_pit
+    2300130: doorFrame
+    2300132: doorFrame1
+    2300134: doorFrame2
+    2300136: activityRoom2_pit
+    2300138: activityRoom1_ledge1
+    2300140: activityRoom1_ledge2
+    2300142: activityRoom2_ledge1
+    2300144: activityRoom2_ledge2
+    2300146: stairsDownDoorFrame
+    2300148: group20
+    2300150: pCube1
+    2300152: pCylinder3
+    2300154: portallRoomDoorFrame
+    2300156: pPlane1
+    2300158: pPlane10
+    2300160: pPlane11
+    2300162: pPlane12
+    2300164: pPlane13
+    2300166: pPlane14
+    2300168: pPlane15
+    2300170: pPlane16
+    2300172: pPlane17
+    2300174: pPlane18
+    2300176: pPlane19
+    2300178: pPlane2
+    2300180: pPlane3
+    2300182: pPlane4
+    2300184: pPlane5
+    2300186: pPlane6
+    2300188: pPlane7
+    2300190: pPlane8
+    2300192: pPlane9
+    2300194: portalRoomDoorFrame
+    2300196: stairwell
+    2300198: bottomStep 1
+    2300200: bridgeRoom
+    2300202: bridgeRoom_pit
+    2300204: bridgeRoom_portal
+    2300206: combatTutorial
+    2300208: darkHallA
+    2300210: darkHallB
+    2300212: darkHallC
+    2300214: darkHallD
+    2300216: darkHallE
+    2300218: darkHallToSimonSays
+    2300220: doorBlock
+    2300222: firePitAreaA
+    2300224: firePitAreaB
+    2300226: hallAToBridgeRoom
+    2300228: hallBToBridgeRoom
+    2300230: hallToCombatTutorial
+    2300232: hallToExitStairs
+    2300234: hallToSplit
+    2300236: hallToStaffRoom
+    2300238: levelOne_falseDoorFrame
+    2300240: lightHallA
+    2300242: lightHallB
+    2300244: lightHallToSimonSays
+    2300246: mainStairs_portal
+    2300248: mainSteps 1
+    2300250: simonSays
+    2300252: simonSays_pit
+    2300254: staffRoom
+    2300256: stepsCollider 1
+    2300258: hallToExitStairs_lightBox
+    2300260: darkHallF
+    3300000: cell 3
+    3300002: cell 4
+    3300004: cell 5
+    3300006: grate1
+    3300008: grate1 1
+    3300010: grate1 2
+    3300012: grate10
+    3300014: grate10 1
+    3300016: grate10 2
+    3300018: grate11
+    3300020: grate11 1
+    3300022: grate11 2
+    3300024: grate12
+    3300026: grate12 1
+    3300028: grate12 2
+    3300030: grate13
+    3300032: grate13 1
+    3300034: grate13 2
+    3300036: grate14
+    3300038: grate14 1
+    3300040: grate14 2
+    3300042: grate15
+    3300044: grate15 1
+    3300046: grate15 2
+    3300048: grate16
+    3300050: grate16 1
+    3300052: grate16 2
+    3300054: grate17
+    3300056: grate17 1
+    3300058: grate17 2
+    3300060: grate18
+    3300062: grate18 1
+    3300064: grate18 2
+    3300066: level
+    3300068: stairs
+    3300070: stairsCollider
+    3300072: levelOne
+    3300074: rupeeHolder
+    3300076: portalRoom
+    3300078: doorTemplate
+    3300080: firePitRoom
+    3300082: hallWidthTemplate
+    3300084: hall
+    3300086: hallOpeningTemplate
+    3300088: steps
+    3300090: stepsCollider
+    3300092: pCube2
+    3300094: bridgeFightRoom
+    3300096: activityRoom1
+    3300098: activityRoom2
+    3300100: bottomStep
+    3300102: hall1
+    3300104: hall10
+    3300106: hall2
+    3300108: hall3
+    3300110: hall4
+    3300112: hall5
+    3300114: hall6
+    3300116: hall7
+    3300118: hall8
+    3300120: hall9
+    3300122: levelOneFirePit
+    3300124: levelOneFirePit1
+    3300126: mainSteps
+    3300128: activityRoom1_pit
+    3300130: doorFrame
+    3300132: doorFrame1
+    3300134: doorFrame2
+    3300136: activityRoom2_pit
+    3300138: activityRoom1_ledge1
+    3300140: activityRoom1_ledge2
+    3300142: activityRoom2_ledge1
+    3300144: activityRoom2_ledge2
+    3300146: stairsDownDoorFrame
+    3300148: group20
+    3300150: pCube1
+    3300152: pCylinder3
+    3300154: portallRoomDoorFrame
+    3300156: pPlane1
+    3300158: pPlane10
+    3300160: pPlane11
+    3300162: pPlane12
+    3300164: pPlane13
+    3300166: pPlane14
+    3300168: pPlane15
+    3300170: pPlane16
+    3300172: pPlane17
+    3300174: pPlane18
+    3300176: pPlane19
+    3300178: pPlane2
+    3300180: pPlane3
+    3300182: pPlane4
+    3300184: pPlane5
+    3300186: pPlane6
+    3300188: pPlane7
+    3300190: pPlane8
+    3300192: pPlane9
+    3300194: portalRoomDoorFrame
+    3300196: stairwell
+    3300198: bottomStep 1
+    3300200: bridgeRoom
+    3300202: bridgeRoom_pit
+    3300204: bridgeRoom_portal
+    3300206: combatTutorial
+    3300208: darkHallA
+    3300210: darkHallB
+    3300212: darkHallC
+    3300214: darkHallD
+    3300216: darkHallE
+    3300218: darkHallToSimonSays
+    3300220: doorBlock
+    3300222: firePitAreaA
+    3300224: firePitAreaB
+    3300226: hallAToBridgeRoom
+    3300228: hallBToBridgeRoom
+    3300230: hallToCombatTutorial
+    3300232: hallToExitStairs
+    3300234: hallToSplit
+    3300236: hallToStaffRoom
+    3300238: levelOne_falseDoorFrame
+    3300240: lightHallA
+    3300242: lightHallB
+    3300244: lightHallToSimonSays
+    3300246: mainStairs_portal
+    3300248: mainSteps 1
+    3300250: simonSays
+    3300252: simonSays_pit
+    3300254: staffRoom
+    3300256: stepsCollider 1
+    3300258: hallToExitStairs_lightBox
+    3300260: darkHallF
+    4300000: grate1
+    4300002: grate10
+    4300004: grate11
+    4300006: grate12
+    4300008: grate13
+    4300010: grate14
+    4300012: grate15
+    4300014: grate16
+    4300016: grate17
+    4300018: grate18
+    4300020: cell
+    4300022: grate1
+    4300024: grate10
+    4300026: grate11
+    4300028: grate12
+    4300030: grate13
+    4300032: grate14
+    4300034: grate15
+    4300036: grate16
+    4300038: grate17
+    4300040: grate18
+    4300042: cell
+    4300044: grate1
+    4300046: grate10
+    4300048: grate11
+    4300050: grate12
+    4300052: grate13
+    4300054: grate14
+    4300056: grate15
+    4300058: grate16
+    4300060: grate17
+    4300062: grate18
+    4300064: cell
+    4300066: stairs
+    4300068: stairsCollider
+    4300070: level
+    4300072: levelOne
+    4300074: rupeeHolder
+    4300076: portalRoom
+    4300078: doorTemplate
+    4300080: hallWidthTemplate
+    4300082: firePitRoom
+    4300084: hallOpeningTemplate
+    4300086: hall
+    4300088: steps
+    4300090: stepsCollider
+    4300092: pCube2
+    4300094: bridgeFightRoom
+    4300096: levelOneFirePit
+    4300098: bottomStep
+    4300100: mainSteps
+    4300102: hall1
+    4300104: hall2
+    4300106: activityRoom1
+    4300108: hall3
+    4300110: hall4
+    4300112: hall5
+    4300114: hall6
+    4300116: hall7
+    4300118: hall8
+    4300120: hall9
+    4300122: hall10
+    4300124: activityRoom2
+    4300126: levelOneFirePit1
+    4300128: activityRoom1_pit
+    4300130: doorFrame
+    4300132: doorFrame1
+    4300134: doorFrame2
+    4300136: activityRoom2_pit
+    4300138: activityRoom1_ledge1
+    4300140: activityRoom1_ledge2
+    4300142: activityRoom2_ledge1
+    4300144: activityRoom2_ledge2
+    4300146: stairsDownDoorFrame
+    4300148: portallRoomDoorFrame
+    4300150: pCylinder3
+    4300152: group20
+    4300154: pPlane1
+    4300156: pPlane2
+    4300158: pPlane3
+    4300160: pPlane4
+    4300162: pPlane5
+    4300164: pPlane6
+    4300166: pPlane7
+    4300168: pPlane8
+    4300170: pPlane9
+    4300172: pPlane10
+    4300174: pPlane11
+    4300176: pPlane12
+    4300178: pPlane13
+    4300180: pPlane14
+    4300182: pPlane15
+    4300184: pPlane16
+    4300186: pPlane17
+    4300188: pPlane18
+    4300190: pPlane19
+    4300192: pCube1
+    4300194: portalRoomDoorFrame
+    4300196: stairwell
+    4300198: levelOne_falseDoorFrame
+    4300200: mainStairs_portal
+    4300202: hallToStaffRoom
+    4300204: staffRoom
+    4300206: hallToCombatTutorial
+    4300208: combatTutorial
+    4300210: hallAToBridgeRoom
+    4300212: hallBToBridgeRoom
+    4300214: bridgeRoom_portal
+    4300216: bridgeRoom
+    4300218: bridgeRoom_pit
+    4300220: hallToSplit
+    4300222: darkHallA
+    4300224: darkHallB
+    4300226: darkHallC
+    4300228: darkHallD
+    4300230: darkHallE
+    4300232: darkHallToSimonSays
+    4300234: lightHallA
+    4300236: lightHallB
+    4300238: lightHallToSimonSays
+    4300240: simonSays
+    4300242: simonSays_pit
+    4300244: firePitAreaA
+    4300246: firePitAreaB
+    4300248: hallToExitStairs
+    4300250: doorBlock
+    4300252: stepsCollider
+    4300254: bottomStep
+    4300256: mainSteps
+    4300258: hallToExitStairs_lightBox
+    4300260: darkHallF
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0500000007
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 8
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

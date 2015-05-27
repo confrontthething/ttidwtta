@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: c80be68583c404c66a690edb1984b586
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: antechamber
+    100002: moulding_bot
+    100004: moulding_bot 1
+    100006: moulding_bot 2
+    100008: moulding_bot 3
+    100010: moulding_corner_back
+    100012: moulding_corner_front
+    100014: moulding_floor
+    100016: moulding_floor 1
+    100018: moulding_floor 2
+    100020: moulding_floor_a
+    100022: moulding_floor_b
+    100024: moulding_ridg
+    100026: moulding_ridge
+    100028: moulding_ridge 1
+    100030: moulding_ridge 2
+    100032: moulding_top
+    100034: moulding_top 1
+    100036: moulding_top 2
+    100038: moulding_top 3
+    100040: mouldingBack
+    100042: mouldingFront
+    100044: mouldingInset
+    100046: mouldingLeft
+    100048: mouldingRight
+    100050: platformBot
+    100052: platformBot_surf
+    100054: platformMid
+    100056: platformMid_surf
+    100058: platformTop
+    100060: platformTop_surf
+    100062: room
+    100064: //RootNode
+    100066: roomInv
+    100068: carpet
+    100070: antechamber1
+    100072: invAntechamber
+    100074: invRoom
+    100076: invAntechamber1
+    100078: moulding_corner_front1
+    100080: inv_antechamber
+    100082: inv_front
+    100084: inv_main
+    100086: room_antechamber
+    100088: room_front
+    100090: room_main
+    100092: room_lava
+    100094: inv_lava
+    400000: antechamber
+    400002: moulding_bot
+    400004: moulding_bot 1
+    400006: moulding_bot 2
+    400008: moulding_bot 3
+    400010: moulding_corner_back
+    400012: moulding_corner_front
+    400014: moulding_floor
+    400016: moulding_floor 1
+    400018: moulding_floor 2
+    400020: moulding_floor_a
+    400022: moulding_floor_b
+    400024: moulding_ridg
+    400026: moulding_ridge
+    400028: moulding_ridge 1
+    400030: moulding_ridge 2
+    400032: moulding_top
+    400034: moulding_top 1
+    400036: moulding_top 2
+    400038: moulding_top 3
+    400040: mouldingBack
+    400042: mouldingFront
+    400044: mouldingInset
+    400046: mouldingLeft
+    400048: mouldingRight
+    400050: platformBot
+    400052: platformBot_surf
+    400054: platformMid
+    400056: platformMid_surf
+    400058: platformTop
+    400060: platformTop_surf
+    400062: room
+    400064: //RootNode
+    400066: roomInv
+    400068: carpet
+    400070: antechamber1
+    400072: invAntechamber
+    400074: invRoom
+    400076: invAntechamber1
+    400078: moulding_corner_front1
+    400080: inv_antechamber
+    400082: inv_front
+    400084: inv_main
+    400086: room_antechamber
+    400088: room_front
+    400090: room_main
+    400092: room_lava
+    400094: inv_lava
+    2300000: antechamber
+    2300002: moulding_bot
+    2300004: moulding_bot 1
+    2300006: moulding_bot 2
+    2300008: moulding_bot 3
+    2300010: moulding_corner_back
+    2300012: moulding_corner_front
+    2300014: moulding_floor
+    2300016: moulding_floor 1
+    2300018: moulding_floor 2
+    2300020: moulding_floor_a
+    2300022: moulding_floor_b
+    2300024: moulding_ridg
+    2300026: moulding_ridge
+    2300028: moulding_ridge 1
+    2300030: moulding_ridge 2
+    2300032: moulding_top
+    2300034: moulding_top 1
+    2300036: moulding_top 2
+    2300038: moulding_top 3
+    2300040: platformBot
+    2300042: platformBot_surf
+    2300044: platformMid
+    2300046: platformMid_surf
+    2300048: platformTop
+    2300050: platformTop_surf
+    2300052: room
+    2300054: roomInv
+    2300056: carpet
+    2300058: antechamber1
+    2300060: invAntechamber
+    2300062: invRoom
+    2300064: invAntechamber1
+    2300066: moulding_corner_front1
+    2300068: inv_antechamber
+    2300070: inv_front
+    2300072: inv_main
+    2300074: room_antechamber
+    2300076: room_front
+    2300078: room_main
+    2300080: room_lava
+    2300082: inv_lava
+    3300000: antechamber
+    3300002: moulding_bot
+    3300004: moulding_bot 1
+    3300006: moulding_bot 2
+    3300008: moulding_bot 3
+    3300010: moulding_corner_back
+    3300012: moulding_corner_front
+    3300014: moulding_floor
+    3300016: moulding_floor 1
+    3300018: moulding_floor 2
+    3300020: moulding_floor_a
+    3300022: moulding_floor_b
+    3300024: moulding_ridg
+    3300026: moulding_ridge
+    3300028: moulding_ridge 1
+    3300030: moulding_ridge 2
+    3300032: moulding_top
+    3300034: moulding_top 1
+    3300036: moulding_top 2
+    3300038: moulding_top 3
+    3300040: platformBot
+    3300042: platformBot_surf
+    3300044: platformMid
+    3300046: platformMid_surf
+    3300048: platformTop
+    3300050: platformTop_surf
+    3300052: room
+    3300054: roomInv
+    3300056: carpet
+    3300058: antechamber1
+    3300060: invAntechamber
+    3300062: invRoom
+    3300064: invAntechamber1
+    3300066: moulding_corner_front1
+    3300068: inv_antechamber
+    3300070: inv_front
+    3300072: inv_main
+    3300074: room_antechamber
+    3300076: room_front
+    3300078: room_main
+    3300080: room_lava
+    3300082: inv_lava
+    4300000: platformTop
+    4300002: platformMid
+    4300004: platformBot
+    4300006: platformTop_surf
+    4300008: platformMid_surf
+    4300010: platformBot_surf
+    4300012: moulding_top
+    4300014: moulding_bot
+    4300016: moulding_ridge
+    4300018: moulding_floor
+    4300020: moulding_top
+    4300022: moulding_bot
+    4300024: moulding_ridge
+    4300026: moulding_floor
+    4300028: moulding_top
+    4300030: moulding_bot
+    4300032: moulding_ridg
+    4300034: moulding_top
+    4300036: moulding_bot
+    4300038: moulding_ridge
+    4300040: moulding_floor_a
+    4300042: moulding_floor_b
+    4300044: moulding_floor
+    4300046: moulding_corner_front
+    4300048: moulding_corner_back
+    4300050: room
+    4300052: antechamber
+    4300054: roomInv
+    4300056: carpet
+    4300058: antechamber1
+    4300060: invAntechamber
+    4300062: invRoom
+    4300064: moulding_corner_front1
+    4300066: invAntechamber1
+    4300068: room_antechamber
+    4300070: room_main
+    4300072: room_front
+    4300074: inv_antechamber
+    4300076: inv_main
+    4300078: inv_front
+    4300080: room_lava
+    4300082: inv_lava
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0299999993
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
